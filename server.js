@@ -5,7 +5,7 @@ var app = express();
 
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/movie_dev');
 
-app.use(express.static('build/'));
+app.use(express.static('ember_app/dist'));
 app.use('/api', moviesRouter);
 
 app.get('*', function(req, res) {
