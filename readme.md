@@ -5,7 +5,7 @@ By Tim and Jordan
 
 First, make sure that you have npm, node, bower, and ember-cli installed globally.
 
-Second, clone this repo.
+Second, clone this repo.  It will create an `ember/` directory inside your working directory.
 
 Third, run `npm install` inside `ember/`.
 
